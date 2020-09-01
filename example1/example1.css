@@ -1,0 +1,33 @@
+body{
+    background-color:#4acc3a;
+}
+
+h1{
+    font-size:5em;
+    color:#ff0000;
+    font-family:Georgia, "Times New Roman",serif;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color:#00f;
+}
+
+a:link, a:visited{
+    color: #00f;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+img.pic1{
+    border: 5px solid  #000;
+    padding: 10px 5px;
+    margin: 10px;
+    width: 300px;
+}
+
+
+
