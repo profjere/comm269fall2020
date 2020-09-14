@@ -1,0 +1,26 @@
+header,.col1,.col2,.col1a,footer{
+    background-color:#f00;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    
+}
+#row1,#row2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col1a{
+    flex-grow:3;
+}
+.col1,.col2{
+    flex-grow:1;
+}
+
+.col1,.col1a,.col2, header,footer{
+    height:100px;
+    margin:5px
+}
+
