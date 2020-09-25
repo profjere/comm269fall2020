@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/*Here is the link to Google Fonts
+
+*/
+
+body{
+    background-image:url('images/double-bubble-outline.png');
+}
+
+#container{
+  background-color:#fff;
+    border-left:1px solid #333;
+    border-right:1px solid #333;
+}
+
+
+header button{
+    float:right;
+    font-size:2vw;/*new*/
+    font-family:"Architects Daughter";
+    margin:2% 8% 0 0;/*change*/
+    color: #F288AF;
+}
+
+header img{/*new*/
+    width:50%;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2.5vw;/*new*/
+    color:#BF8B5E;
+    background-color:#FDF4D1;
+    border-radius: 20px;
+    padding:10px;
+}
+
+nav a:hover{
+    background-color:#333;
+    color:#F288AF;
+}
+
+#mainIceCream{
+    background-image:url('images/ice-cream-white-chocolate-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size:150%;  
+}
+
+@media only screen  and (max-width: 768px) {
+    #mainIceCream{ 
+     background-size:100%;
+        height:300px;/*it goes to flexbox, so it collpses without the height.*/
+    }
+}/*new*/
+
+#storedescription h1{
+    font-size:5vw;
+    text-align: center;
+    font-family:"Architects Daughter",sans-serif;
+}
+
+#storedescription h2{
+    font-size:4vw;
+    text-align: center;
+    font-family:"Architects Daughter";
+}
+
+aside{
+    background-color:#ddd;
+    border-radius: 30px;
+    box-shadow: 3px 3px; 
+    padding:10px;
+    margin:10px;
+}
+
+aside h2{
+    font-size:4.5vw;
+    text-align: center;
+    color:#F288AF;
+    font-family:"Architects Daughter";
+}
+
+footer{
+    padding-top:20px;
+    font-family:"Architects Daughter";
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(images/ice-cream-white-chocolate-wallpaper-preview.jpg);
+    background-size: contain;
+    
+}
+footer{
+    font-size:2.5vw;
+}

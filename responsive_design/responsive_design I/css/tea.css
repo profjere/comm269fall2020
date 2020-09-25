@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.pic3 img{
+    width:100%;
+    min-width:300px;
+    height:auto;
+}
+
+header h1{
+        font-size:17vw;
+        text-align: center;
+    }
+
+main, aside{
+        font-size:10vw;
+        border:2px solid #000;
+        background-color:#fff;
+        text-align: center;
+}
+
+.pic1{
+    background-image:url("../images/tea1.jpg");
+    
+}
+
+.pic2{
+    background-image:url("../images/tea2.jpg");
+    
+}
+/*not used with this example
+.pic3{
+    background-image:url("../images/tea3.jpg");
+    
+}*/
+
+footer{
+    text-align: center;
+}
+
+
+.pic1,.pic2,.pic3{
+    /*.pic3 doesn't do anything*/
+    background-size:cover;
+    background-position:50% 50%;
+    width:100%;
+}
+
+nav div{
+   
+    background-color:#ddd;
+    text-align: center;
+    font-size: 4vw;
+}
+
+nav div a{
+    text-decoration: none;
+}

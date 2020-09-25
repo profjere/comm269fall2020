@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap');
+
+#container{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+header{
+    background-image: url('images/cars2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:235px;
+}
+
+header h1{
+    font-family: Kufam;
+    font-size:9em;
+    color: #777;
+    text-shadow: 6px 6px #ff0000
+    
+    
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+
+nav a{
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    text-decoration: none;
+    background-color:#666;
+    padding: .1% 10%;
+    border:1px solid #000;
+    color: #fff;
+    
+}
+
+nav a:hover{
+    color:#000;
+     background-color:#eee;
+    
+}
+
+article{
+    background-image: url('images/car_large.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:800px;
+    border:2px solid #000;
+    box-shadow: 10px 10px #000;
+}
+
+aside h1{
+    font-family:Kufam;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+content img{
+    width:80%;
+    margin:0 10%; 
+}
+
+
+#car1,#car2,#car3,#car4,#car5,#car6,#car7,#car8,#car9,#car10,#car11,#car12{
+    float:left;
+    width:22%;
+    height:200px;
+    padding-left:5%;
+    background-size: cover;
+    background-position: center;
+    margin:2%;
+}
+
+#car1{
+    background-image: url('images/car1.jpeg');
+}
+#car2{
+    background-image: url('images/car2.jpeg');
+}
+#car3{
+    background-image: url('images/car3.jpeg');
+}
+#car4{
+    background-image: url('images/car4.jpeg');
+}
+#car5{
+    background-image: url('images/car5.jpeg');
+}
+#car6{
+    background-image: url('images/car6.jpeg');
+}
+#car7{
+    background-image: url('images/car7.jpeg');
+}
+#car8{
+    background-image: url('images/car8.jpeg');
+}
+#car9{
+    background-image: url('images/car9.jpeg');
+}
+#car10{
+    background-image: url('images/car10.jpeg');
+}
+#car11{
+    background-image: url('images/car11.jpeg');
+}
+#car12{
+    background-image: url('images/car12.jpeg');
+}
+
+
+
+footer{
+    text-align: center;
+    
+}
+
+footer h1{
+    font-family:Kufam;
+}
+
+footer textarea{
+    margin:0 60px;
+}
