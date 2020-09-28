@@ -1,0 +1,170 @@
+/*bring in font*/
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint&display=swap');
+
+/*Eliminates border on sides and elsewhere*/
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap; /*NOTICE NO WRAP*/
+    justify-content:center;
+}
+
+#photos{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap; /*NOTICE WRAP*/
+    justify-content:space-evenly;
+    
+}
+#rates{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap
+}
+
+
+header h1{
+    font-family: 'Finger Paint',sans-serif;
+    font-size:5em;
+    text-align: center;
+}
+
+/*navigation*/
+
+
+nav div{
+    padding: 0 0px;
+    background-color:#ddd;
+    border:1px solid #000;
+}
+
+nav a:link,nav a:visited{
+    color:#fff;
+    text-decoration: none;
+    font-size:2em;
+    background-color:#222;
+    width:33%;
+    padding: 0 40px
+}
+
+nav a:hover{
+     color:#000;
+     background-color:#ddd;
+}
+/*end navigation*/
+
+#photos{
+    background-color:#ff0;
+    border-bottom-right-radius: 3000px;
+    
+}
+#photo1,#photo2,#photo3,#photo4,#photo5,#photo6,#photo7,#photo8,#photo9{
+    background-size:cover;
+    width:270px;
+    height:270px;
+    margin:5px;
+    border:3px solid #000;
+    font-size:8em;
+    text-align: center;
+}
+
+#photo1:hover,#photo2:hover,#photo3:hover,#photo4:hover,#photo5:hover,#photo6:hover,#photo7:hover,#photo8:hover,#photo9:hover{
+    opacity:.8;
+}
+/*all the images*/
+#photo1{
+    background-image:url(images/clouds1.jpg);  
+}
+#photo1:hover{
+    background-image:url(images/clouds1.jpg);
+}
+#photo2{
+    background-image:url(images/clouds2.jpg);
+    
+}
+#photo3{
+    background-image:url(images/clouds3.jpg);
+
+}
+#photo4{
+    background-image:url(images/clouds4.jpg);
+  
+}
+#photo5{
+    background-image:url(images/storm1.jpg);
+  
+}
+#photo6{
+    background-image:url(images/storm2.jpg);
+    
+}
+#photo7{
+    background-image:url(images/storm3.jpg);
+    
+}
+#photo8{
+    background-image:url(images/storm4.jpg);
+ 
+}
+#photo9{
+    background-image:url(images/storm5.jpg);
+  
+}
+#photo1:hover:after{
+    content:"$50";
+}
+#photo2:hover:after{
+    content:"$150";
+}
+#photo3:hover:after{
+    content:"$75";
+}
+#photo4:hover:after{
+    content:"$35";
+}
+#photo5:hover:after{
+    content:"$250";
+}
+#photo6:hover:after{
+    content:"$125";
+}
+#photo7:hover:after{
+    content:"$35";
+}
+#photo8:hover:after{
+    content:"$450";
+}
+#photo9:hover:after{
+    content:"$150";
+}
+
+
+
+/*last two divs*/
+.ratebox{
+    width:48%;
+    border:2px solid #000;
+    text-align: center;
+    height:auto;
+    font-size: 2.2em;
+    font-family: 'Finger Paint',sans-serif;
+    margin-right:5px;
+}
+
+#contact h3{
+    font-size:2em;
+    margin-top:30px;
+    text-align: center;
+}
+
