@@ -1,0 +1,37 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav div{
+    background-color:#ff0;
+    padding:2px 11%;
+    margin:2px;
+}
+
+
+
+nav div a:link{
+    text-decoration: none;
+    color:#000;
+    font-size: 1.2em;
+}
+
+nav div:hover{
+    background-color:#0f0;
+    
+}
+/*order is important*/
+nav div.current{
+    background-color:#aaf;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
